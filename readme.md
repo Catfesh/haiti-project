@@ -12,8 +12,7 @@ lnaguage list
 
 sections
 
-CONFETTIIIIII
-
+CONFETTIIIII
 database post photos (end)
 
 facts about the crisis
