@@ -11,12 +11,12 @@
 
   <body>
     <div class="bg-white">
-      <header class="absolute inset-x-0 top-0 z-50" x-data="{mobileOpen: false}">
+      <header class="fixed inset-x-0 top-0 z-50 bg-white bg-opacity-50 shadow-md" x-data="{mobileOpen: false}">
         <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div class="flex lg:flex-1">
             <a href="#" class="-m-1.5 p-1.5">
               <span class="sr-only">Your Company</span>
-              <img class="h-56 w-auto" src="images/haiti-italie.png" alt="" />
+              <img class="h-28 w-auto" src="images/haiti-italie.png" alt="" />
             </a>
           </div>
           <div class="flex lg:hidden">
@@ -88,8 +88,11 @@
             </div>
           </div>
           <div class="text-center">
-            <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">placeholder</h1>
-            <p class="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+            <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Homepage</h1>
+            <div class="flex text-center items-center w-1/2 mx-auto my-16">
+              <a href="/updates.html" class="bg-blue-300 rounded-xl px-3 font-semibold mx-auto">Updates</a>
+              <a href="/about.html" class="bg-blue-300 rounded-xl px-3 font-semibold mx-auto">About</a>
+            </div>
             <div class="mt-10 flex items-center justify-center gap-x-6">
               <a href="https://www.paypal.com/donate/?hosted_button_id=FMK3SBTQLFMZE" target="_blank" class="flex rounded-md bg-sky-100 px-3.5 py-2.5 text-sm font-semibold text-indigo-700 shadow-sm hover:bg-indigo-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-200">
                 <img src="images/paypal-logo.png" class="h-20" />
