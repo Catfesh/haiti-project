@@ -29,3 +29,11 @@ contact form
 navigator for finding all haitan heritage stuff
 
 translate
+
+changes:
+
+Make Home page buttons sticky
+
+Beneath make button for "updates" and "other" linking to 2 seperate pages one in blog format and the other with help form, social mdia and donations
+
+https://hooks.slack.com/services/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
